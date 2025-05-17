@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import '../Style/TopBar.css';
 import '../Style/App.css';
+import '../Pages/About.js'
 
 export default function TopBar() {
   return (
@@ -10,11 +11,12 @@ export default function TopBar() {
         <img src="/src/Assets/company-logo.jpg" alt="Logo" className="logo" />
       </div>
       <nav className="nav-links">
-        <Link to="/link5">Link 5</Link>
-        <Link to="/link4">Link 4</Link>
-        <Link to="/link3">Link 3</Link>
-        <Link to="/link2">Link 2</Link>
-        <Link to="/link1">Link 1</Link>
+        <Link to="/About">About</Link>
+        <Link to="/Publications">Publications</Link>
+        <Link to="/Teaching">Teaching</Link>
+        <Link to="/ScienceComm">Science Comm</Link>
+        <Link to="/PledgetoOpenScience">Pledge to Open Science</Link>
+        <Link to="/Blog">Blog</Link>
       </nav>
     </header>
   )
