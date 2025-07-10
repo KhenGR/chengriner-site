@@ -1,21 +1,8 @@
-/*.footer {
-    padding: 15px 20px;
-    background: #f1f1f1;
-    display: flex;
-    gap: 15px;
-  }*/
-
+    /*Footer.css */
   .footer {
-    background-color: #f8f8f8;
-    padding: 20px;
+    background-color: #ededed;
     text-align: center;
     border-top: 1px solid #ddd;
-  }
-  
-  .footer-icons img {
-    width: 30px;
-    margin: 0 10px;
-    vertical-align: middle;
   }
   
   .footer-icons a:hover img {

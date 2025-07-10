@@ -9,7 +9,7 @@ export default function AcademicInfo() {
 
     <div className="my-summary">
     <p>
-    I am [Name], a recent Ph.D. graduate in Communication Engineering, having completed 
+    I am Chen Griner, a recent Ph.D. graduate in Communication Engineering, having completed 
     my studies in 2024. During my doctoral research, I focused on topics such as wireless communication, 
     signal processing, and network optimization. I published four peer-reviewed articles in respected journals, contributing 
     meaningful insights to the field. My work combined both theoretical modeling and practical applications, aiming to solve real-world 
@@ -18,38 +18,54 @@ export default function AcademicInfo() {
     knowledge in academia or the tech industry, where I can continue to innovate and grow.
     </p>
     </div>
+    
 
     <div className='more-about-me'>
     <div className='bulletpoints'>
       <h2>Can Find about me...</h2>
+       <div className='diveder'></div>
       <ul>
         <li>
-        <span>Resumé</span>
-      <Link to="/link7">short</Link>
-      <Link to="/link8">full</Link>
+          <div className='resume-link'>
+            <span>Resumé </span>
+            <a href='/'>short</a>
+           <span> or </span>
+           <a href='/'>full</a>
+          </div>
+           
         </li>
         <li>
-          <Link to="/link9">Teaching Statment</Link>
+          <div className='teaching-statment'>
+             <a href='/'>Teaching Statment</a>
+          </div>
         </li>
       </ul>
     </div>
+   
+  <div className='highlights-container'>
+    <h2>Highlights</h2>
+     <div className='diveder'></div>
 
-    <div className='highlights'>
-
-    <h2>Academic Research</h2>
-    <p>Focused on machine learning techniques for natural language processing, Ada conducted research involving language models and probabilistic systems.</p>
-
-    <h2>Teaching Experience</h2>
-    <p>Taught undergraduate courses in Algorithms and Artificial Intelligence at the University of Babbage.</p>
-
-    <h2>Publication Work</h2>
-    <p>Published over 20 papers in top-tier AI journals covering neural networks, optimization, and computer vision.</p>
-
-    <h2>Conference Presentations</h2>
-    <p>Presented findings at international conferences including NeurIPS, ICML, and ACL with award-winning poster sessions.</p>
-
-    <h2>Mentorship Programs</h2>
-    <p>Guided Ph.D. students through thesis development and industry-academic collaboration projects.</p>
+  <div className='highlight'>
+    <div className='highlight-date'>
+      Jun. 2024
+    </div>
+    <div className='highlight-content'>
+      <h4>Teaching Experience</h4>
+      <p>Taught undergraduate courses in Algorithms and Artificial Intelligence at the University of Babbage.</p>
+    </div> 
+  </div>
+  
+  <div className='highlight'>
+    <div className='highlight-date'>
+      Jun. 2024
+    </div>
+    <div className='highlight-content'>
+      <h4>Teaching Experience</h4>
+      <p>Taught undergraduate courses in Algorithms and Artificial Intelligence at the University of Babbage.</p>
+    </div> 
+  </div>
+    
     </div>
   </div>
 </div>

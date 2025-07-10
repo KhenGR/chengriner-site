@@ -1,37 +1,110 @@
+  /* MainGrid.css */
 .main-grid {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    height: 100%;  /* Full viewport height */
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  padding: 20px;
+}
+.diveder{
+  border-bottom: 1px solid #bfbfbf;
+}
+.right-section,
+.left-section {
+  padding: 20px;
+}
+.connection-details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.profile-circle img{
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #bfbfbf;
+  max-width: 200px;
+  border-radius: 50%;
+}
+.profile-img {
+  width: 100%;
+  max-width: 250px;
+}
+.links-with-logos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5em;
+  gap: 0.5em;
+}
+.link {
+  display: flex;           /* puts children (SVG + link) in a row */
+  align-items: center;        /* aligns them vertically */
+  gap: 0.5em;                /* space between icon and text */
+}
+.link a {
+  color: black;
+  text-decoration: none;
+}
+.link a:hover {
+  text-decoration: underline;
+}
+.link-1{margin-right: 7.5px;}
+.link-3{margin-right: 23px;}
+
+.resume-link a{
+  opacity: 1;
+  color: rgb(210, 136, 16);
+  text-decoration: none;
+}
+.teaching-statment a:hover,
+.resume-link a:hover{
+  opacity: 0.6;
+}
+.teaching-statment a{
+  opacity: 1;
+  text-decoration: none;
+  color: rgb(210, 136, 16);
+}
+.highlight-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: space-between;
+}
+.highlight{
+  display: flex;
+  padding: 0.5em 1em;
+  background-color: #f2f3f3;
+  box-shadow: 0 1px 1px rgba(189, 193, 196, .25);
+  margin: 2em 0.5em;
+}
+.highlight-date {
+  flex: 0 20%;        /* fixed 25% width */
+  font-weight: bold;
+  color: #555;
+  padding-top: 1.3em;
+}
+
+.highlight-content {
+  flex: 1;              /* take up remaining 75% */
+}
+ /* Responsive behavior for mobile */
+@media (max-width: 768px) {
+  .main-grid {
+    display: block;
   }
-  
+
   .left-section {
-    display: grid;
-    height: 100%;
-    padding: 20px;
+    display: block; /* or adjust if you want to show it in a different layout */
     
   }
-  
-  .profile-img {
-    width: 100%;
-    max-width: 250px;
+  .links-with-logos{
+    display: none;
   }
-  
-  .links-with-logos div {
+  .connection-details{
     display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-top: 5px;
   }
-  
-  .right-section h2 {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 10px 0 5px;
+   .profile-circle img{
+    max-width: 10rem;
   }
-  .profile-circle img{
-    padding: 5px;
-    border: 1px solid #bfbfbf;
-    max-width: 200px;
-    border-radius: 50%;
-  }
- 
+}
