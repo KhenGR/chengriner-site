@@ -4,6 +4,13 @@ import '../Style/Footer.css'
 
 export default function Footer() {
   return (
-    <div className='footer'>Footer</div>
+    <div className='footer'>
+      <div>
+        <span>CONNECT : FEED</span>
+      </div>
+      <div>
+        <span>© Chen Griner</span>
+      </div>
+    </div>
   )
 }

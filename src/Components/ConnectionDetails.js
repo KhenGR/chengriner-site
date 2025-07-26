@@ -4,11 +4,7 @@ import '../Style/App.css';
 import '../Style/MainGrid.css';
 
 export default function ConnectionDetails() {
-  const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsOpen(prev => !prev);
-  };
 return (
 <div className="content-grid">
   <div className="left-section">
@@ -31,19 +27,7 @@ return (
           <a href="https://www.youtube.com/watch?v=DEMjY4d8jCs">Orcid</a>
         </div>
       </div>
-      <button className='sociallinks' onClick={toggleMenu}>Connect</button>
-      {
-        isOpen ? 
-        <>
-        <a href='https://www.youtube.com/watch?v=DEMjY4d8jCs'>LinkedIn</a>
-        <a href='https://www.youtube.com/watch?v=DEMjY4d8jCs'>GitHub</a>
-        <a href='https://www.youtube.com/watch?v=DEMjY4d8jCs'>Google Scholer</a>
-        </>
-        :
-        <>
-        </>
-      }
-      </div>
+    </div>
       </div>
     </div>
   )

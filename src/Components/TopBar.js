@@ -1,59 +1,72 @@
-import React from 'react'
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import '../Style/TopBar.css';
 import '../Style/App.css';
-import '../Pages/About.js'
 
 export default function TopBar() {
-
   const [isOpen, setIsOpen] = useState(false);
+  const [selected, setSelected] = useState('');
 
-  const toggleMenu = () => {
-    setIsOpen(prev => !prev);
-  };
+  const toggleMenu = () => setIsOpen(!isOpen);
+
+  const navLinks = [
+    { label: 'About', href: '/About' },
+    { label: 'Publications', href: '/Publications' },
+    { label: 'Teaching', href: '/Teaching' },
+    { label: 'Science Comm', href: '/ScienceComm' },
+    { label: 'Pledge to Open Science', href: '/PledgetoOpenScience' },
+    { label: 'Blog', href: '/Blog' },
+  ];
 
   return (
     <header className="top-bar">
-        <div className="logo-container">
-          <Link to="/">
+      <div className="logo-container">
+        <a href="/">
           <h2>Chen Griner</h2>
-          <h4>Ph.d Researcher – Communication Engineer</h4>
-          </Link>
+          <h3>Ph.d Researcher – Communication Engineer</h3>
+        </a>
       </div>
+
+      {/* Desktop nav */}
       <nav className="nav-links">
         <ul>
-           <li><a href="/About">About</a></li>
-           <li><a href="/Publications">Publications</a></li>
-           <li><a href="/Teaching">Teaching</a></li>
-           <li><a href="/ScienceComm">Science Comm</a></li>
-           <li><a href="/PledgetoOpenScience">Pledge to Open Science</a></li>
-           <li><a href="/Blog">Blog</a></li>
+          {navLinks.map((link, i) => (
+            <li key={i}>
+              <a href={link.href}>{link.label}</a>
+            </li>
+          ))}
         </ul>
       </nav>
-      <div className='hamburger' onClick={toggleMenu}>
-        <div className='menu-line1'></div>
-          <div className='menu-line2'></div>
-          <div className='menu-line3'></div>
-        {
-          isOpen ?
-          <>
-        <div className="dropdown-menu">
-        <div class="close-icon"></div>
-        <Link className='option' to="/About">About</Link>
-        <Link to="/Publications">Publications</Link>
-        <Link to="/Teaching">Teaching</Link>
-        <Link to="/ScienceComm">Science Comm</Link>
-        <Link to="/PledgetoOpenScience">Pledge to Open Science</Link>
-        <Link to="/Blog">Blog</Link>
+
+      {/* Mobile-only menu */}
+      <div className="mobile-menu">
+        <div
+          className={`hamburger ${isOpen ? 'active' : ''}`}
+          onClick={toggleMenu}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-          </>
-          :
-          <>
-        
-          </>
-        }
+ {isOpen && <div className="overlay" onClick={() => setIsOpen(false)}></div>}
+        {isOpen && (
+          <div className="dropdown-menu">
+            <ul>
+              {navLinks.map((link, i) => (
+                <li
+                  key={i}
+                  className={`dropdown-item ${selected === link.label ? 'selected' : ''}`}
+                  onClick={() => {
+                    setSelected(link.label);
+                    setIsOpen(false);
+                  }}
+                >
+                  <a href={link.href}>{link.label}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
     </header>
-  )
+  );
 }
