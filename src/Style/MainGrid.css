@@ -60,7 +60,7 @@
 
 .my-summary p{
   font-size: 1.2vw;
-   width: 55em; /* or any fixed width */
+  width: 55em; /* or any fixed width */
   text-align: justify;
   line-height: 1.6;
 }
@@ -113,6 +113,65 @@
   width: 4em;
   height: 4em;
   }
+  /* Teaching.css */
+
+.teaching-page {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.teaching-page h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.teaching-page .abstract {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 2em;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.teaching-page h2 {
+  font-size: 2em;
+  margin-bottom: 1.5em;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3em;
+}
+
+.course-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.course-row {
+  display: flex;
+  gap: 1em;
+  border-left: 3px solid #d28a10;
+  padding-left: 1rem;
+}
+
+.course-year {
+  flex: 0 0 5em;
+  font-weight: bold;
+  color: #444;
+}
+
+.course-info {
+  flex: 1;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.course-info em {
+  color: #777;
+  font-style: italic;
+}
+
 
  /* Responsive behavior for mobile */
 @media (min-width: 360px) and (max-width: 768px) {
