@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../Style/TopBar.css';
 import '../Style/App.css';
 
@@ -20,10 +21,10 @@ export default function TopBar() {
   return (
     <header className="top-bar">
       <div className="logo-container">
-        <a href="/">
+        <Link to="/">
           <h2>Chen Griner</h2>
           <h3>Ph.d Researcher – Communication Engineer</h3>
-        </a>
+        </Link>
       </div>
 
       {/* Desktop nav */}
@@ -31,7 +32,7 @@ export default function TopBar() {
         <ul>
           {navLinks.map((link, i) => (
             <li key={i}>
-              <a href={link.href}>{link.label}</a>
+              <Link to={link.href}>{link.label}</Link>
             </li>
           ))}
         </ul>
@@ -47,7 +48,9 @@ export default function TopBar() {
           <span></span>
           <span></span>
         </div>
- {isOpen && <div className="overlay" onClick={() => setIsOpen(false)}></div>}
+
+        {isOpen && <div className="overlay" onClick={() => setIsOpen(false)}></div>}
+
         {isOpen && (
           <div className="dropdown-menu">
             <ul>
@@ -60,7 +63,7 @@ export default function TopBar() {
                     setIsOpen(false);
                   }}
                 >
-                  <a href={link.href}>{link.label}</a>
+                  <Link to={link.href}>{link.label}</Link>
                 </li>
               ))}
             </ul>
