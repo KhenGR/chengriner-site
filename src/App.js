@@ -12,9 +12,11 @@ import ConnectionDetails from './Components/ConnectionDetails';
 import './Style/App.css';
 import './Style/TopBar.css';
 import './Style/MainGrid.css';
+import { HashRouter as Router} from "react-router-dom";
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <TopBar />
       <main className="main-grid">
@@ -35,7 +37,7 @@ function App() {
       </main>
         <Footer />
     </div>
-    
+    </Router>
   );
 }
 
