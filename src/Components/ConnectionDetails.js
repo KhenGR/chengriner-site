@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import ProfileImage from "../Assets/profile_picture.jpg";
 import '../Style/App.css';
 import '../Style/MainGrid.css';
