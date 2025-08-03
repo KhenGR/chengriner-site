@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/chengriner-site/static/css/main.47fa45b1.css",
-    "main.js": "/chengriner-site/static/js/main.b36ad40b.js",
+    "main.css": "/chengriner-site/static/css/main.9dbd7799.css",
+    "main.js": "/chengriner-site/static/js/main.5aff0b86.js",
     "static/js/453.a8dcec35.chunk.js": "/chengriner-site/static/js/453.a8dcec35.chunk.js",
     "static/media/profile_picture.jpg": "/chengriner-site/static/media/profile_picture.dace8a7df353b74bf9e0.jpg",
     "index.html": "/chengriner-site/index.html",
-    "main.47fa45b1.css.map": "/chengriner-site/static/css/main.47fa45b1.css.map",
-    "main.b36ad40b.js.map": "/chengriner-site/static/js/main.b36ad40b.js.map",
+    "main.9dbd7799.css.map": "/chengriner-site/static/css/main.9dbd7799.css.map",
+    "main.5aff0b86.js.map": "/chengriner-site/static/js/main.5aff0b86.js.map",
     "453.a8dcec35.chunk.js.map": "/chengriner-site/static/js/453.a8dcec35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47fa45b1.css",
-    "static/js/main.b36ad40b.js"
+    "static/css/main.9dbd7799.css",
+    "static/js/main.5aff0b86.js"
   ]
 }
