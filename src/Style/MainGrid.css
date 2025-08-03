@@ -4,6 +4,7 @@
   grid-template-columns: 1fr 3fr;
   gap: 20px;
   padding: 20px;
+  height: 100vh;
 }
 .diveder{
   border-bottom: 1px solid #bfbfbf;
@@ -29,7 +30,7 @@
   align-items: center;
   padding: 5px;
   border: 1px solid #bfbfbf;
-  max-width: 200px;
+  max-width: 150px;
   border-radius: 50%;
 }
 .profile-img {
@@ -57,10 +58,23 @@
 }
 .link-1{margin-right: 7.5px;}
 .link-3{margin-right: 23px;}
+.link-4{margin-right:-40px;}
 
+.link-1 svg{
+  width: 40px
+}
+.link-2 svg{
+  width: 40px
+}
+.link-3 svg{
+  width: 30px
+}
+.link-4 svg{
+  width: 30px
+}
 .my-summary p{
   font-size: 1.2vw;
-  width: 55em; /* or any fixed width */
+  width: 100%; /* or any fixed width */
   text-align: justify;
   line-height: 1.6;
 }
@@ -191,10 +205,34 @@
     position: static;
     display: block; 
   }
-  .links-with-logos{
+   .links-with-logos {
     display: flex;
     flex-direction: row;
-    margin-left: 1em;
+    justify-content: space-evenly; /* <-- evenly spaced items */
+    align-items: center;
+    flex-wrap: wrap;              /* Optional: wrap if too many items */
+    gap: 1em;                     /* Optional: consistent spacing */
+    width: 100%;
+    margin: 1em auto;
+  }
+  .link {
+    flex-direction: column;      /* Icon above text on small screens */
+    align-items: center;
+    text-align: center;
+    margin: 0.5em 0;
+  }
+    .link svg {
+    margin-bottom: 0.3em;
+  }
+    .link-1,
+  .link-2,
+  .link-3,
+  .link-4 {
+    margin: 0 !important; /* Remove conflicting margins */
+  }
+  .link-3,
+  .link-4{
+    gap: 1em;
   }
   .connection-details{
     display: flex;
