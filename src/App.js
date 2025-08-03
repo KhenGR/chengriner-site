@@ -28,10 +28,10 @@ function App() {
         <Route path='/' element={<AcademicInfo/>}/>
         <Route path="/About" element={<About />} />
         <Route path="/Publications" element={<Publications />} />
-        <Route path="/Teaching" element={<Teaching />} />
-        <Route path="/Sciencecomm" element={<ScienceComm />} />
-        <Route path="/PledgetoOpenScience" element={<PledgetoOpenScience />} />
-        <Route path="/Blog" element={<Blog />} />
+        {/*<Route path="/Teaching" element={<Teaching />} />*/}
+        {/*<Route path="/Sciencecomm" element={<ScienceComm />} />*/}
+       {/*<Route path="/PledgetoOpenScience" element={<PledgetoOpenScience />} />*/}  
+       {/*<Route path="/Blog" element={<Blog />} /> */} 
       </Routes>
         </div>
       </main>
