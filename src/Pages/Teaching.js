@@ -65,7 +65,12 @@ export default function Teaching() {
     },
   ];
   return (
-    <div className="teaching-page">
+    <div>
+      <p>
+        Under Constructions ...
+      </p>
+    </div>
+    /*<div className="teaching-page">
       <h1>Teaching</h1>
       <p className="abstract">
         Dr. Chen Griner is passionate about delivering engaging, research-led
@@ -87,6 +92,6 @@ export default function Teaching() {
           </div>
         ))}
       </div>
-    </div>
+    </div>*/
   )
 }

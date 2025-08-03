@@ -1,5 +1,4 @@
 import { Route,Routes } from 'react-router-dom';
-import AcademicInfo from './Pages/AcademicInfo';
 import About from './Pages/About';
 import Publications from './Pages/Publications';
 import Blog from './Pages/Blog';
@@ -25,10 +24,10 @@ function App() {
         </div>
         <div className="right-section">
         <Routes>
-        <Route path='/' element={<AcademicInfo/>}/>
+        <Route path='/' element={<About/>}/>
         <Route path="/About" element={<About />} />
         <Route path="/Publications" element={<Publications />} />
-        {/*<Route path="/Teaching" element={<Teaching />} />*/}
+        <Route path="/Teaching" element={<Teaching />} />
         {/*<Route path="/Sciencecomm" element={<ScienceComm />} />*/}
        {/*<Route path="/PledgetoOpenScience" element={<PledgetoOpenScience />} />*/}  
        {/*<Route path="/Blog" element={<Blog />} /> */} 

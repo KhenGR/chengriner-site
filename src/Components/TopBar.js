@@ -13,9 +13,9 @@ export default function TopBar() {
     { label: 'About', href: '/About' },
     { label: 'Publications', href: '/Publications' },
     { label: 'Teaching', href: '/Teaching' },
-    { label: 'Science Comm', href: '/ScienceComm' },
-    { label: 'Pledge to Open Science', href: '/PledgetoOpenScience' },
-    { label: 'Blog', href: '/Blog' },
+    /*{ label: 'Science Comm', href: '/ScienceComm' },*/
+    /*{ label: 'Pledge to Open Science', href: '/PledgetoOpenScience' },*/
+   /* { label: 'Blog', href: '/Blog' },*/
   ];
 
   return (
