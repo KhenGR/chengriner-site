@@ -12,7 +12,7 @@ import './Style/App.css';
 import './Style/TopBar.css';
 import './Style/MainGrid.css';
 import { HashRouter as Router} from "react-router-dom";
-import "../googlec150876af9e76abe.html"
+import "./googlec150876af9e76abe.html"
 
 function App() {
   return (
