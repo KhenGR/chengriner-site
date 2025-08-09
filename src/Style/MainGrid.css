@@ -191,7 +191,7 @@
 @media (min-width: 360px) and (max-width: 768px) {
   .main-grid {
     display: block;
-    height: 100vh;
+    height: auto;
   }
   .logo-container h2{
     font-size: 4em;
