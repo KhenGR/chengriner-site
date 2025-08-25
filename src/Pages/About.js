@@ -9,12 +9,13 @@ export default function About() {
 
     <div className="my-summary">
     <p>
-
-I graduated with a Ph.D. from the Department of Electrical Engineering at Ben Gurion University. My Ph.D. research was about novel technologies for datacenter network architecture and their optimization and modeling.
-I am currently searching for a challenging academic position where I can expand my research interests to include ML, and its application in datacenter networking. 
-Recently graduated with a Ph.D. from the Department of Electrical Engineering at Ben Gurion University.
-My Ph.D. research was about novel technologies for datacenter network architecture and their optimization and modeling. 
-I am currently searching for a challenging academic position where I can expand my research interests to include ML, and its application in datacenter networking.
+    I am Chen Griner, a recent Ph.D. graduate in Communication Engineering, having completed 
+    my studies in 2024. During my doctoral research, I focused on topics such as wireless communication, 
+    signal processing, and network optimization. I published four peer-reviewed articles in respected journals, contributing 
+    meaningful insights to the field. My work combined both theoretical modeling and practical applications, aiming to solve real-world 
+    communication challenges. I actively collaborated with other researchers and participated in international conferences. With a strong academic 
+    background and hands-on research experience, I am now looking to apply my 
+    knowledge in academia or the tech industry, where I can continue to innovate and grow.
     </p>
     </div>
     
