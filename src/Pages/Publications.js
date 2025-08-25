@@ -51,7 +51,8 @@ export default function Publications() {
   return (
      <div className="publications">
       <p>
-        Below are all my publications.
+        Below is a selection of Dr. Griner’s recent academic publications in the
+        field of advanced wireless communication systems, cognitive radio, and signal intelligence.
       </p>
 
       <ul>
