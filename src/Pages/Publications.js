@@ -74,7 +74,7 @@ export default function Publications() {
   // Custom section titles for each type
   const sectionTitles = {
     Journal: "Peer-Reviewed Journal Articles",
-    Conference: "Conference Proceedingss",
+    Conference: "Conference Proceedings",
     Preprint: "Preprints"
   };
 
