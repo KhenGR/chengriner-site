@@ -41,8 +41,7 @@ export default function Publications() {
   // Helper to filter articles by type
 //  const getArticlesByType = (type) =>
 Articles.filter((art) => art.type === type && art.title);
-const getArticlesByType = (type) =>
-  Articles
+const getArticlesByType = (type) => Articles
     .filter((art) => art.type === type && art.title)
     .sort((a, b) => Number(b.year || 0) - Number(a.year || 0)); // <-- Ensure newest first, handle missing years
 
