@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Articles from "../Data/publications.json";
 export default function Publications() {
 /*const [publications, setPublications] = useState([]);*/
@@ -71,7 +70,7 @@ export default function Publications() {
   // )
 
 
-  // Custom section titles for each type
+ // Custom section titles for each type
   const sectionTitles = {
     Journal: "Peer-Reviewed Journal Articles",
     Conference: "Conference Proceedings",
@@ -80,7 +79,7 @@ export default function Publications() {
 
   // Helper to filter articles by type
 //  const getArticlesByType = (type) =>
-  //  Articles.filter((art) => art.type === type && art.title);
+Articles.filter((art) => art.type === type && art.title);
 const getArticlesByType = (type) =>
   Articles
     .filter((art) => art.type === type && art.title)
