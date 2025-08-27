@@ -8,45 +8,6 @@ export default function Publications() {
       .then(data => setPublications(data))
       .catch(err => console.error(err));
   }, []);*/
-/*    const publications = [
-    {
-      authors:"Chen Griner",
-      title: "Effectively Mimicking Datacenter Traffic Patterns Using Transformers",
-      institute:"",
-      link: "Articles/Effectively_Mimicking_Datacenter_Traffic.pdf"
-      
-    },
-    {
-      authors:"Chen Griner, Chen Avin, Gil Einziger",
-      title: "Beyond Matchings: Dynamic Multi-hop Topology for Demand-Aware Datacenters",
-      institute:"",
-      link: "Articles/Beyond_Matchings__Dynamic_Multi_hop_Topology_for_Demand_Aware_Datacenters.pdf"
-    },
-    {
-      authors:"Chen Griner, Chen Avin, Stefan Schmid",
-      title: "CacheNet: Leveraging the Principle of Locality in Reconfigurable Network Design",
-      institute:"",
-      link: "Articles/CacheNet.pdf"
-    },
-    {
-      authors:"Chen Griner, Johannes Zerwas, Andreas Blenk, Manya Ghobadi, Stefan Schmid, Chen Avin",
-      title: "Cerberus: The Power of Choices in Datacenter Topology Design",
-      institute:"",
-      link: "Articles/Cerberus.pdf"
-    },
-    {
-      authors:"Chen Avin, Chen Griner, Manya Ghobadi, Chen Griner ",
-      title: "On the Complexity of Traffic Traces and Implications",
-      institute:"",
-      link: "Articles/Trace_complexity.pdf"
-    },
-     {
-      authors:"Chen Avin, Chen Griner,  IosifSalem, Chen Griner ",
-      title: "An Online Matching Model for Self-AdjustingToR-to-ToRNetworks",
-      institute:"",
-      link: "Articles/An_Online_Matching_Model_for.pdf"
-    },
-  ];*/
   // return (
   //    <div className="publications">
   //     <p>
