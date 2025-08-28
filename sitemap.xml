@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://khengr.github.io/chengriner-site/</loc>
+    <lastmod>2025-08-28</lastmod>
+  </url>
 
+  <!-- About page -->
+  <url>
+    <loc>https://khengr.github.io/About</loc>
+    <lastmod>2025-08-28</lastmod>
+  </url>
 
-<url>
-  <loc>https://khengr.github.io/chengriner-site/</loc>
-  <lastmod>2025-08-28T06:47:57+00:00</lastmod>
-</url>
+  <!-- Publications -->
+  <url>
+    <loc>https://khengr.github.io/Publications</loc>
+    <lastmod>2025-08-28</lastmod>
+  </url>
+    <!-- Blog -->
+  <url>
+    <loc>https://khengr.github.io/Blog</loc>
+    <lastmod>2025-08-28</lastmod>
+  </url>
 
-
+  <!-- Teaching -->
+  <url>
+    <loc>https://khengr.github.io/Teaching</loc>
+    <lastmod>2025-08-28</lastmod>
+  </url>
+  <!--PDF-->
+   <url>
+    <loc>https://khengr.github.io/chengriner-site/Articles/Beyond_Matchings__Dynamic_Multi_hop_Topology_for_Demand_Aware_Datacenters.pdf</loc>
+    <lastmod>2025-08-28</lastmod>
+  </url>
 </urlset>
