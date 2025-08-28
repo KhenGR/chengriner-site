@@ -1,36 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Homepage -->
   <url>
     <loc>https://khengr.github.io/chengriner-site/</loc>
-    <lastmod>2025-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
-
-  <!-- About page -->
   <url>
-    <loc>https://khengr.github.io/About</loc>
-    <lastmod>2025-08-28</lastmod>
+    <loc>https://khengr.github.io/chengriner-site/About</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-
-  <!-- Publications -->
   <url>
-    <loc>https://khengr.github.io/Publications</loc>
-    <lastmod>2025-08-28</lastmod>
+    <loc>https://khengr.github.io/chengriner-site/Publications</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-    <!-- Blog -->
   <url>
-    <loc>https://khengr.github.io/Blog</loc>
-    <lastmod>2025-08-28</lastmod>
-  </url>
-
-  <!-- Teaching -->
-  <url>
-    <loc>https://khengr.github.io/Teaching</loc>
-    <lastmod>2025-08-28</lastmod>
-  </url>
-  <!--PDF-->
-   <url>
-    <loc>https://khengr.github.io/chengriner-site/Articles/Beyond_Matchings__Dynamic_Multi_hop_Topology_for_Demand_Aware_Datacenters.pdf</loc>
-    <lastmod>2025-08-28</lastmod>
+    <loc>https://khengr.github.io/chengriner-site/Teaching</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
