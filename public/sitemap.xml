@@ -10,14 +10,14 @@
 
   <!-- About page -->
   <url>
-    <loc>https://khengr.github.io/chengriner-site/#/About</loc>
+    <loc>https://khengr.github.io/About</loc>
     <lastmod>2025-08-28</lastmod>
     <priority>0.8</priority>
   </url>
 
   <!-- Publications -->
   <url>
-    <loc>https://khengr.github.io/chengriner-site/#/Publications</loc>
+    <loc>https://khengr.github.io/Publications</loc>
     <lastmod>2025-08-28</lastmod>
     <priority>0.9</priority>
   </url>
@@ -69,14 +69,14 @@
 
   <!-- Blog -->
   <url>
-    <loc>https://khengr.github.io/chengriner-site/#/Blog</loc>
+    <loc>https://khengr.github.io/Blog</loc>
     <lastmod>2025-08-28</lastmod>
     <priority>0.5</priority>
   </url>
 
   <!-- Teaching -->
   <url>
-    <loc>https://khengr.github.io/chengriner-site/#/Teaching</loc>
+    <loc>https://khengr.github.io/Teaching</loc>
     <lastmod>2025-08-28</lastmod>
     <priority>0.8</priority>
   </url>
