@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function PledgetoOpenScience() {
   return (
-    <div>PledgetoOpenScience</div>
+    <div>Under Constructions ...</div>
   )
 }
