@@ -29,16 +29,18 @@
     <loc>https://khengr.github.io/Teaching</loc>
     <lastmod>2025-08-28</lastmod>
   </url>
+  <!--PDF-->
+   <url>
+    <loc>https://khengr.github.io/chengriner-site/Articles/Beyond_Matchings__Dynamic_Multi_hop_Topology_for_Demand_Aware_Datacenters.pdf</loc>
+    <lastmod>2025-08-28</lastmod>
+    <priority>0.9</priority>
+  </url>
 </urlset>
 
 
 
   <!-- 
-  <url>
-    <loc>https://khengr.github.io/chengriner-site/Articles/Beyond_Matchings__Dynamic_Multi_hop_Topology_for_Demand_Aware_Datacenters.pdf</loc>
-    <lastmod>2025-08-28</lastmod>
-    <priority>0.9</priority>
-  </url>
+ 
   <url>
     <loc>https://khengr.github.io/chengriner-site/Articles/CacheNet.pdf</loc>
     <lastmod>2025-08-28</lastmod>
