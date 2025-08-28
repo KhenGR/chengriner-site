@@ -10,14 +10,14 @@
 
   <!-- About page -->
   <url>
-    <loc>https://khengr.github.io/chengriner-site/about</loc>
+    <loc>https://khengr.github.io/chengriner-site/#/About</loc>
     <lastmod>2025-08-28</lastmod>
     <priority>0.8</priority>
   </url>
 
   <!-- Publications -->
   <url>
-    <loc>https://khengr.github.io/chengriner-site/publications</loc>
+    <loc>https://khengr.github.io/chengriner-site/#/Publications</loc>
     <lastmod>2025-08-28</lastmod>
     <priority>0.9</priority>
   </url>
@@ -67,39 +67,18 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Academic Info -->
-  <url>
-    <loc>https://khengr.github.io/chengriner-site/academicinfo</loc>
-    <lastmod>2025-08-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Blog -->
   <url>
-    <loc>https://khengr.github.io/chengriner-site/blog</loc>
+    <loc>https://khengr.github.io/chengriner-site/#/Blog</loc>
     <lastmod>2025-08-28</lastmod>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
 
   <!-- Teaching -->
   <url>
-    <loc>https://khengr.github.io/chengriner-site/teaching</loc>
+    <loc>https://khengr.github.io/chengriner-site/#/Teaching</loc>
     <lastmod>2025-08-28</lastmod>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Science Communication -->
-  <url>
-    <loc>https://khengr.github.io/chengriner-site/sciencecomm</loc>
-    <lastmod>2025-08-28</lastmod>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Pledge to Open Science -->
-  <url>
-    <loc>https://khengr.github.io/chengriner-site/pledgetoopenscience</loc>
-    <lastmod>2025-08-28</lastmod>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url>
 
 </urlset>

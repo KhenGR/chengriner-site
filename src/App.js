@@ -3,8 +3,8 @@ import About from './Pages/About';
 import Publications from './Pages/Publications';
 import Blog from './Pages/Blog';
 import Teaching from './Pages/Teaching';
-import ScienceComm from './Pages/ScienceComm';
-import PledgetoOpenScience from './Pages/PledgetoOpenScience';
+/*import ScienceComm from './Pages/ScienceComm';
+import PledgetoOpenScience from './Pages/PledgetoOpenScience';*/
 import TopBar from './Components/TopBar';
 import Footer from './Components/Footer';
 import ConnectionDetails from './Components/ConnectionDetails';
@@ -29,8 +29,8 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Publications" element={<Publications />} />
         <Route path="/Teaching" element={<Teaching />} />
-        <Route path="/Sciencecomm" element={<ScienceComm />} />
-       <Route path="/PledgetoOpenScience" element={<PledgetoOpenScience />} />
+        {/*<Route path="/Sciencecomm" element={<ScienceComm />} />*/}
+       {/*<Route path="/PledgetoOpenScience" element={<PledgetoOpenScience />} />*/}  
        <Route path="/Blog" element={<Blog />} />
       </Routes>
         </div>
