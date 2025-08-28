@@ -1,6 +1,7 @@
 import Articles from "../Data/publications.json";
 export default function Publications() {
 
+
 function renderArticlesByType(type) {
   return getArticlesByType(type).map((art, index) => (
     <li key={index} style={{ marginBottom: "2em" }}>
@@ -28,21 +29,21 @@ function renderArticlesByType(type) {
   ));
 }
 
-  // Custom section titles for each type
+ // Custom section titles for each type
+
   const sectionTitles = {
     Journal: "Peer-Reviewed Journal Articles",
     Conference: "Conference Proceedings",
     Preprint: "Preprints"
   };
 
-  // Helper to filter articles by type
-//  const getArticlesByType = (type) =>
-  //  Articles.filter((art) => art.type === type && art.title);
-const getArticlesByType = (type) =>
-  Articles
+
+  //************** */
+/*Articles.filter((art) => art.type === type && art.title);
+const getArticlesByType = (type) => Articles
     .filter((art) => art.type === type && art.title)
     .sort((a, b) => Number(b.year || 0) - Number(a.year || 0)); // <-- Ensure newest first, handle missing years
-
+/***************** */
   return (
     <div className="publications">
       <p>Below are my publications.</p>

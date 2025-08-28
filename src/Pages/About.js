@@ -9,7 +9,7 @@ export default function About() {
 
     <div className="my-summary">
     <p>
-    I am a recent Ph.D. graduate in Communication Engineering, having completed 
+    I am a recent Ph.D. graduate in Network Engineering, having completed 
     my studies in 2024. During my doctoral research, I focused on topics such as wireless communication, 
     signal processing, and network optimization. I published four peer-reviewed articles in respected journals, contributing 
     meaningful insights to the field. My work combined both theoretical modeling and practical applications, aiming to solve real-world 
