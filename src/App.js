@@ -11,7 +11,7 @@ import ConnectionDetails from './Components/ConnectionDetails';
 import './Style/App.css';
 import './Style/TopBar.css';
 import './Style/MainGrid.css';
-import { HashRouter as Router} from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 
 
 function App() {
