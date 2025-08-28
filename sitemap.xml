@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://khengr.github.io/chengriner-site/</loc>
+    <lastmod>2025-08-28</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About page -->
+  <url>
+    <loc>https://khengr.github.io/About</loc>
+    <lastmod>2025-08-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Publications -->
+  <url>
+    <loc>https://khengr.github.io/Publications</loc>
+    <lastmod>2025-08-28</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <!-- 
+  <url>
+    <loc>https://khengr.github.io/chengriner-site/Articles/Beyond_Matchings__Dynamic_Multi_hop_Topology_for_Demand_Aware_Datacenters.pdf</loc>
+    <lastmod>2025-08-28</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://khengr.github.io/chengriner-site/Articles/CacheNet.pdf</loc>
+    <lastmod>2025-08-28</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://khengr.github.io/chengriner-site/Articles/Effectively_Mimicking_Datacenter_Traffic.pdf</loc>
+    <lastmod>2025-08-28</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://khengr.github.io/chengriner-site/Articles/Cerberus.pdf</loc>
+    <lastmod>2025-08-28</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://khengr.github.io/chengriner-site/Articles/Trace_complexity.pdf</loc>
+    <lastmod>2025-08-28</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://khengr.github.io/chengriner-site/Articles/D3.pdf</loc>
+    <lastmod>2025-08-28</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://khengr.github.io/chengriner-site/Articles/Harnessing_Generative-Pre_Trained_Transformer_for.pdf</loc>
+    <lastmod>2025-08-28</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://khengr.github.io/chengriner-site/Articles/An_Online_Matching_Model_for.pdf</loc>
+    <lastmod>2025-08-28</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://khengr.github.io/chengriner-site/Articles/Integrated_Topology_and_Traffic_Engineering_for.pdf</loc>
+    <lastmod>2025-08-28</lastmod>
+    <priority>0.9</priority>
+  </url>
+-->
+  <!-- Blog -->
+  <url>
+    <loc>https://khengr.github.io/Blog</loc>
+    <lastmod>2025-08-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Teaching -->
+  <url>
+    <loc>https://khengr.github.io/Teaching</loc>
+    <lastmod>2025-08-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
