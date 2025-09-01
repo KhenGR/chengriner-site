@@ -5,9 +5,18 @@ export default function Publications() {
 function renderArticlesByType(type) {
   return getArticlesByType(type).map((art, index) => (
     <li key={index} style={{ marginBottom: "2em" }}>
-      <p>{art.title}</p>
-    <p>{art.authors}, {art.year}</p>
-   
+      <p><b>{art.title}</b></p>
+      <p>{art.authors && <>{art.authors}. </>}</p>
+     <p>{art.journal && <><i>{art.journal}</i>, </>}
+      {art.volume && <>{art.volume}, </>}
+      {art.pages && <>{art.pages}, </>}
+      {art.year && <><span>Year: </span>{art.year}</>}
+      </p>
+      <p>{art.DOI && (
+    <a href={art.DOI} target="_blank" rel="noopener noreferrer">
+      {art.DOI}
+    </a>
+  )}</p>
       { art.link && (
         <>
     <span>Download Paper (PDF): </span>

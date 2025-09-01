@@ -5,7 +5,10 @@
       "institute":"",
       "link": "Articles/Effectively_Mimicking_Datacenter_Traffic.pdf",
       "type": "Conference",
-      "year":"2025"
+      "year":"2025",
+      "journal": "2025 IFIP Networking Conference (IFIP Networking",
+      "pages": "1--93",
+      "publisher": "IEEE"
       
     },
     {
@@ -14,7 +17,13 @@
       "institute":"",
       "link": "Articles/Beyond_Matchings__Dynamic_Multi_hop_Topology_for_Demand_Aware_Datacenters.pdf",
       "type": "Journal",
-      "year":"2024"
+      "journal": "Computer Networks",
+      "volume": "240",
+      "pages": "110143",
+      "year": "2024",
+      "publisher": "Elsevier",
+      "DOI": "https://doi.org/10.1016/j.comnet.2023.110143" 
+
     },
     {
       "authors":"Chen Griner, Chen Avin, Stefan Schmid",
@@ -22,15 +31,27 @@
       "institute":"",
       "link": "Articles/CacheNet.pdf",
       "type": "Journal",
-      "year":"2022"
+      "year":"2022",
+        "journal":"Computer Networks",
+      "volume":"204",
+      "pages": "108648",
+    "publisher": "Elsevier",
+      "DOI": "https://doi.org/10.1016/j.comnet.2021.108648"
+
     },
     {
       "authors":"Chen Griner, Johannes Zerwas, Andreas Blenk, Manya Ghobadi, Stefan Schmid, Chen Avin",
       "title": "Cerberus: The Power of Choices in Datacenter Topology Design",
       "institute":"",
       "link": "Articles/Cerberus.pdf",
-        "type": "Conference",
-      "year":"2021"
+      "type": "Conference",
+      "year":"2021",
+      "journal": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+      "volume": "5",
+      "number": "3",
+      "pages": "1--33",
+      "publisher": "ACM New York, NY, USA",
+      "DOI": "https://doi.org/10.1145/3491050"
     },
     {
       "authors":"Chen Avin, Chen Griner, Manya Ghobadi, Chen Griner ",
@@ -38,7 +59,13 @@
       "institute":"",
       "link": "Articles/Trace_complexity.pdf",
       "type": "Conference",
-      "year":"2020"
+      "year":"2020",
+      "journal": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+      "volume": "4",
+      "number": "1",
+      "pages": "1--29",
+      "publisher": "ACM New York, NY, USA",
+      "DOI": "https://doi.org/10.1145/3379486"
     },
      {
       "authors":"Chen Avin, Chen Griner,  IosifSalem, Chen Griner ",
@@ -46,7 +73,8 @@
       "institute":"",
       "link": "Articles/An_Online_Matching_Model_for.pdf",
       "type": "Preprint",
-      "year":"2020"
+      "year":"2020",
+       "journal": "arXiv preprint arXiv:2006.11148"
     },
     {
       "authors":"Johannes Zerwas, Chen Griner, Stefan Schmid, Chen Avin ",
@@ -54,7 +82,9 @@
       "institute":"arXiv preprint",
       "link": "Articles/D3.pdf",
       "type": "Preprint",
-      "year":"2024"
+      "year":"2024",
+      "journal": "arXiv preprint arXiv:2406.13380"
+
     },
     {
       "authors":"Chen Griner",
@@ -62,7 +92,8 @@
       "institute":"arXiv preprint",
       "link": "Articles/Harnessing_Generative-Pre_Trained_Transformer_for.pdf",
       "type": "Preprint",
-      "year":"2024"
+      "year":"2024",
+      "journal": "arXiv preprint arXiv:2501.12033"
     },
     {
       "authors":"Chen Griner, Chen Avin",
