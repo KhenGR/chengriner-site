@@ -11,12 +11,12 @@ import ConnectionDetails from './Components/ConnectionDetails';
 import './Style/App.css';
 import './Style/TopBar.css';
 import './Style/MainGrid.css';
-import { BrowserRouter as Router} from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
-
+////// basename="/chengriner-site">///
 function App() {
   return (
-    <Router basename="/chengriner-site">
+    <Router>
     <div className="App">
       <TopBar />
       <main className="main-grid">
