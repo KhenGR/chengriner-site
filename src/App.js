@@ -16,7 +16,7 @@ import { BrowserRouter as Router} from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/chengriner-site">
     <div className="App">
       <TopBar />
       <main className="main-grid">
