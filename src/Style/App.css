@@ -25,4 +25,27 @@ body {
 
 
   
-  
+ /* add or merge these rules */
+.pub-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 1.5rem 0;
+}
+
+.pub-table td {
+  border: none;
+  padding: 0.4rem 0;
+  vertical-align: top;
+}
+
+.year-cell {
+  width: 6.5rem;
+  padding-right: 1rem;
+  font-weight: 700;
+  color: #222;
+  white-space: nowrap;
+}
+
+.body-cell {
+  padding-left: 0;
+}

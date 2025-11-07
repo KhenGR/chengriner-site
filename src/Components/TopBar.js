@@ -12,7 +12,8 @@ export default function TopBar() {
   const navLinks = [
     { label: 'About', href: '/About' },
     { label: 'Publications', href: '/Publications' },
-    { label: 'Teaching', href: '/Teaching' },
+    { label: 'Research', href: '/Research' },
+   /* { label: 'Teaching', href: '/Teaching' },*/
     /*{ label: 'Science Comm', href: '/ScienceComm' },*/
     /*{ label: 'Pledge to Open Science', href: '/PledgetoOpenScience' },*/
    { label: 'Blog', href: '/Blog' }
@@ -23,7 +24,7 @@ export default function TopBar() {
       <div className="logo-container">
         <Link to="/">
           <h2>Chen Griner</h2>
-          <h3>Ph.d Researcher – Communication Engineer</h3>
+          <h3>Ph.d Researcher – Communication Engineering</h3>
         </Link>
       </div>
 

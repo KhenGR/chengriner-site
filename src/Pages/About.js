@@ -1,5 +1,7 @@
 import '../Style/App.css';
 import '../Style/MainGrid.css';
+//import Research from './Research';
+import { Link } from 'react-router-dom'; // ...existing code...
 
 export default function About() {
 
@@ -9,9 +11,12 @@ export default function About() {
 
     <div className="my-summary">
     <p>
-I have a Ph.D. from the Department of Electrical Engineering at Ben Gurion University from 2024. 
-My Ph.D. research was about novel technologies for datacenter network architecture and their optimization and modeling.
-I am currently searching for a challenging academic position where I can expand my research interests to include ML, and its application in datacenter networking. 
+
+
+I have completed a Ph.D. from the Department of Electrical Engineering at Ben Gurion University in 2024 under the supervistion of <a href={"https://chenavin.github.io/"} target="_blank" rel="noopener noreferrer">Prof. Chen Avin</a>. 
+My Ph.D. <Link to="/Research">Research</Link> was about novel technologies for datacenter network architecture and their optimization and modeling.
+I am currently searching for a challenging academic position where I can expand my research interests to include ML, and its application in datacenter networking.   
+
     </p>
     </div>
     

@@ -68,7 +68,7 @@
       "DOI": "https://doi.org/10.1145/3379486"
     },
      {
-      "authors":"Chen Avin, Chen Griner,  IosifSalem, Chen Griner ",
+      "authors":"Chen Avin, Chen Griner,  Iosif Salem, Chen Griner ",
       "title": "An Online Matching Model for Self-AdjustingToR-to-ToRNetworks",
       "institute":"",
       "link": "Articles/An_Online_Matching_Model_for.pdf",
@@ -86,7 +86,9 @@
       "journal": "arXiv preprint arXiv:2406.13380"
 
     },
-    {
+ 
+
+        {
       "authors":"Chen Griner",
       "title": "Harnessing Generative Pre-Trained Transformer for Datacenter Packet Trace Generation",
       "institute":"arXiv preprint",
@@ -98,10 +100,18 @@
     {
       "authors":"Chen Griner, Chen Avin",
       "title": "Integrated Topology and Traffic Engineering for Reconfigurable Datacenter Networks",
-      "institute":"arXiv preprint",
+      "institute":"",
       "link": "Articles/Integrated_Topology_and_Traffic_Engineering_for.pdf",
-      "type": "Preprint",
-      "year":"2024"
+      "type": "Journal",
+      "year":"2025",
+      "journal":"Computer Networks",
+      "volume":"?????",
+      "pages": "??????????",
+    "publisher": "Elsevier",
+    "DOI":"https://doi.org/10.1016/j.comnet.2025.111803"
     }
 
   ]
+    
+
+  

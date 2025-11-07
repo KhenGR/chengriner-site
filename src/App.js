@@ -3,6 +3,7 @@ import About from './Pages/About';
 import Publications from './Pages/Publications';
 import Blog from './Pages/Blog';
 import Teaching from './Pages/Teaching';
+import Research from './Pages/Research';
 /*import ScienceComm from './Pages/ScienceComm';
 import PledgetoOpenScience from './Pages/PledgetoOpenScience';*/
 import TopBar from './Components/TopBar';
@@ -28,6 +29,7 @@ function App() {
         <Route path='/' element={<About/>}/>
         <Route path="/About" element={<About />} />
         <Route path="/Publications" element={<Publications />} />
+         <Route path="/Research" element={<Research />} />
         <Route path="/Teaching" element={<Teaching />} />
         {/*<Route path="/Sciencecomm" element={<ScienceComm />} />*/}
        {/*<Route path="/PledgetoOpenScience" element={<PledgetoOpenScience />} />*/}  

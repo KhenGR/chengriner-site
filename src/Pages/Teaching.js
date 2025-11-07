@@ -6,7 +6,7 @@ export default function Teaching() {
   return (
     <div>
       <p>
-        Under Constructions ...
+        Under ssConstructions ...
       </p>
     </div>
     /*<div className="teaching-page">
