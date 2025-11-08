@@ -35,15 +35,19 @@ body {
 .pub-table td {
   border: none;
   padding: 0.4rem 0;
-  vertical-align: top;
+  vertical-align: middle;   /* ensure cells are vertically centered */
 }
 
 .year-cell {
   width: 6.5rem;
-  padding-right: 1rem;
+  padding: 0 1rem;           /* tighten horizontal padding */
   font-weight: 700;
   color: #222;
   white-space: nowrap;
+  font-size: 1.15rem;       /* larger year text */
+  text-align: left;       /* center horizontally */
+  vertical-align: middle;   /* center vertically in the table row */
+  line-height: 1;           /* keep text compact */
 }
 
 .body-cell {

@@ -23,13 +23,13 @@ I am currently searching for a challenging academic position where I can expand 
 
     <div className='more-about-me'>
     <div className='bulletpoints'>
-      <h2>Can Find about me...</h2>
+      <h2>Other files</h2>
        <div className='diveder'></div>
       <ul>
         <li>
           <div className='resume-link'>
-            <span>Resumé </span>
-           <a href={`${process.env.PUBLIC_URL}/${resume}`} target="_blank" rel="noopener noreferrer">Full Version</a>
+            {/* <span>Curriculum vitae </span> */}
+           <a href={`${process.env.PUBLIC_URL}/${resume}`} target="_blank" rel="noopener noreferrer">Curriculum vitae</a>
           </div>
         </li>
        {/* 

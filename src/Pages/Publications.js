@@ -100,28 +100,29 @@ const getArticlesByType = (type) => Articles
       <p>Below are my publications.</p>
 
       {/* Journal Articles */}
-      <section>
-        <h2>{sectionTitles.Journal}</h2>
-        <ul>
-          {renderArticlesByType("Journal")}
-        </ul>
-      </section>
-
+ 
+<section>
+  <h2>{sectionTitles.Journal}</h2>
+  <table className="pub-table"><tbody>
+    {renderArticlesByType("Journal")}
+    </tbody></table>
+</section>
       {/* Conference Proceedings */}
-      <section>
-        <h2>{sectionTitles.Conference}</h2>
-        <ul>
-          {renderArticlesByType("Conference")}
-        </ul>
-      </section>
 
-      {/* Preprints */}
       <section>
-        <h2>{sectionTitles.Preprint}</h2>
-        <ul> 
-          {renderArticlesByType("Preprint")}
-        </ul>
-      </section>
+  <h2>{sectionTitles.Conference}</h2>
+  <table className="pub-table"><tbody>
+    {renderArticlesByType("Conference")}
+    </tbody></table>
+</section>
+      {/* Preprints */}
+     <section>
+  <h2>{sectionTitles.Preprint}</h2>
+  <table className="pub-table"><tbody>
+    {renderArticlesByType("Preprint")}
+    </tbody></table>
+</section>
+ 
     </div>
   );
 }

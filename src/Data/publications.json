@@ -6,7 +6,7 @@
       "link": "Articles/Effectively_Mimicking_Datacenter_Traffic.pdf",
       "type": "Conference",
       "year":"2025",
-      "journal": "2025 IFIP Networking Conference (IFIP Networking",
+      "journal": "2025 IFIP Networking Conference (IFIP Networking)",
       "pages": "1--93",
       "publisher": "IEEE"
       
@@ -105,8 +105,8 @@
       "type": "Journal",
       "year":"2025",
       "journal":"Computer Networks",
-      "volume":"?????",
-      "pages": "??????????",
+      "volume":"TBD",
+      "pages": "TBD",
     "publisher": "Elsevier",
     "DOI":"https://doi.org/10.1016/j.comnet.2025.111803"
     }
