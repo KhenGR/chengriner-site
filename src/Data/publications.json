@@ -109,6 +109,19 @@
       "pages": "111803",
     "publisher": "Elsevier",
     "DOI":"https://doi.org/10.1016/j.comnet.2025.111803"
+    },
+ {
+      "authors":"Johannes Zerwas, Chen Griner, Stefan Schmid, Chen Avin",
+      "title": "D3: Enhancing reconfigurable datacenters with adaptive demand-oblivious and demand-aware integration",
+      "institute":"",
+      "link": "Articles/D3_Enhancing_Reconfigurable_Datacenters_with_Adaptive.pdf",
+      "type": "Journal",
+      "year":"2026",
+      "journal":"Computer Networks",
+      "volume":"282",
+      "pages": "112255",
+    "publisher": "Elsevier",
+    "DOI":"https://doi.org/10.1016/j.comnet.2026.112255"
     }
 
   ]
