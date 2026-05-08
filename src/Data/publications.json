@@ -6,9 +6,9 @@
       "link": "Articles/Effectively_Mimicking_Datacenter_Traffic.pdf",
       "type": "Conference",
       "year":"2025",
-      "journal": "2025 IFIP Networking Conference (IFIP Networking)",
-      "pages": "1--93",
-      "publisher": "IEEE"
+      "journal": "2025 IFIP Networking Conference (IFIP Networking), Limassol, Cyprus",
+      "publisher": "IEEE",
+      "DOI":"https://networking.ifip.org/2025/images/Net25_papers/1571141683.pdf"
       
     },
     {
@@ -122,9 +122,21 @@
       "pages": "112255",
     "publisher": "Elsevier",
     "DOI":"https://doi.org/10.1016/j.comnet.2026.112255"
-    }
+    },
 
-  ]
+  {
+    "authors":"Chen Griner, Chen Avin",
+    "journal":"2021 IFIP Networking Conference (IFIP Networking)", 
+    "title":"CacheNet: Leveraging the Principle of Locality in Reconfigurable NetworkDesign (Poster)", 
+    "year":"2021",
+    "pages":"1-3",
+    "type": "Conference",
+    "link": "Articles/CacheNet__Poster.pdf", 
+    "publisher": "IEEE",
+    "DOI":"https://10.23919/IFIPNetworking52078.2021.9472808"
+  }
+
+]
     
 
   
